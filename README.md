@@ -8,8 +8,8 @@ https://asfrolenkov.github.io/buildFolder/admin-template/
 
 https://asfrolenkov.github.io/buildFolder/js-only/
 
-## marvel-app - ⛔
-
+## marvel-app - ✅
+(доработать перенаправление)
 https://asfrolenkov.github.io/buildFolder/marvel-app/
 
 ## spa - ✅
