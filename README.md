@@ -1,9 +1,9 @@
-## GP status
+# GP status
 
-# admin-template - ⛔
+## admin-template - ⛔
 
-# js-only - ✅
+## js-only - ✅
 
-# marvel-app - ⛔
+## marvel-app - ⛔
 
-# spa - ✅
+## spa - ✅
