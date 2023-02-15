@@ -1,5 +1,7 @@
 # GP status
 
+https://asfrolenkov.github.io/buildFolder/
+
 ## admin-template - ⛔
 
 https://asfrolenkov.github.io/buildFolder/admin-template/
