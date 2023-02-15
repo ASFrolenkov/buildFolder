@@ -1,0 +1,29 @@
+@import url('./styles/animation.css');
+@import url('./styles/firstPage.css');
+@import url('./styles/modal.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    min-height: 100vh;
+    overflow-y: scroll;
+    background: linear-gradient(var(--color-gradient-bg1), var(--color-gradient-bg2));
+    --color-gradinet-text1: rgb(96, 224, 228);
+    --color-gradinet-text2: rgb(224, 191, 119);
+    --color-gradinet-text3: rgb(224, 101, 193);
+    --color-gradient-bg1: rgb(247, 226, 157);
+    --color-gradient-bg2: rgb(233, 126, 188);
+    --color-gradient-circle1: rgb(240, 172, 225);
+    --color-gradient-circle2: rgb(241, 233, 183);
+    --color-gradient-circle3: rgb(231, 162, 222);
+    --color-gradient-circle4: rgb(236, 224, 171);
+    --color-gradient-circle5: rgba(236, 233, 205, 0);
+}
+.wrapper {
+    z-index: 1;
+    position: relative;
+}

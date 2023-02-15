@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Github Pages</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="title">asfrolenkov.github.io</h1>
+    
+            <div class="box">
+                <div class="block">
+                    <span class="content" style="--i:0" data-button="0">js-only-site</span>
+                    <span class="content" style="--i:1" data-button="1">employees_template-react-app</span>
+                    <span class="content" style="--i:2" data-button="2">marvel-react-app</span>
+                    <span class="content" style="--i:3" data-button="3">hero_admin-react-redux-app</span>
+                </div>
+            </div>
+        </div>
+        <div class="circle"></div>
+    </div>
+    
+    <div class="modal">
+        <div class="modal_content" data-modal="0">
+            <button class="modal_close"></button>
+            <h2 class="title modal_title">js-only-site</h2>
+            <p class="modal_descr">Сайт реализованный без сторонних библиотек, построенный на модульной структуре.</p>
+            <a href="https://asfrolenkov.github.io/buildFolder/js-only/" class="modal_link">На сайт</a>
+        </div>
+        <div class="modal_content" data-modal="1">
+            <button class="modal_close"></button>
+            <h2 class=" title modal_title">employees_template-react-app</h2>
+            <p class="modal_descr">SPA учета сотрудников. В этом приложении реализован учет, фильтр и добавление/удаление сотрудников из базы данных(реализованная в виде state в приложении). Приложение построенно на классовых и функциональных компонентах.</p>
+            <a href="https://asfrolenkov.github.io/buildFolder/spa/" class="modal_link">На сайт</a>
+        </div>
+        <div class="modal_content" data-modal="2">
+            <button class="modal_close"></button>
+            <h2 class=" title modal_title">marvel-react-app</h2>
+            <p class="modal_descr">Приложение построенное на открытом Marvel API. На сайте можно найти персонажей из вселенной Marvel и комиксы в которых они участвовали.</p>
+            <a href="https://asfrolenkov.github.io/buildFolder/marvel-app/" class="modal_link">На сайт</a>
+        </div>
+        <div class="modal_content" data-modal="3">
+            <button class="modal_close"></button>
+            <h2 class=" title modal_title">hero_admin-react-redux-app</h2>
+            <p class="modal_descr">Административная панель создания персонажей и внесение их в базу данных(за это в проекте отвечает JSON файл). Для управления state в приложении используется RTK query.</p>
+            <a href="https://asfrolenkov.github.io/buildFolder/admin-template/" class="modal_link">На сайт</a>
+        </div>
+    </div>   
+
+    <script src="./script.js"></script>
+</body>
+</html>

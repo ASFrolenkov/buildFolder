@@ -1,0 +1,88 @@
+.container {
+    height: 100vh;
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+}
+.circle {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(50deg, var(--color-gradient-circle1), var(--color-gradient-circle5) 55%),
+                linear-gradient(135deg, var(--color-gradient-circle2), var(--color-gradient-circle5) 55%),
+                linear-gradient(225deg, var(--color-gradient-circle3), var(--color-gradient-circle5) 55%),
+                linear-gradient(320deg, var(--color-gradient-circle4), var(--color-gradient-circle5) 55%);
+    border-radius: 50%;
+    filter: blur(10px);
+    animation: animate-circle 15s linear infinite;
+}
+
+.box {
+    margin: 0 auto;
+    margin-top: 200px;
+    display: block;
+    width: 0px;
+    position: relative;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate-rotate 16s linear infinite;
+}
+.box:hover {
+    animation-play-state: paused;
+}
+
+.block {
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    transform-style: preserve-3d;
+}
+.content {
+    position: absolute;
+    left: calc(50% - 200px);
+    width: 400px;
+    height: 200px;
+    background: #91d7ec;
+    transform: rotateY(calc(90deg * var(--i))) translateZ(250px);
+    transition: 0.5s;
+    border-radius: 20px;
+
+    color: #c3e998;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.content:hover {
+    background: rgb(236, 243, 177);
+    border: 1px solid #91d7ec;
+    filter: drop-shadow(0 0 50px rgb(240, 239, 169));
+    cursor: pointer; 
+    color: #fff; 
+}
+.content:nth-child(2) {
+    font-size: 33px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 60px;
+    width: 920px;
+    line-height: 80px;
+    text-align: center;
+    animation: gradient-text 5s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--color-gradinet-text1),
+        var(--color-gradinet-text2),
+        var(--color-gradinet-text3),
+        var(--color-gradinet-text1)
+    );
+    background-size: 200%;
+    white-space: nowrap;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
